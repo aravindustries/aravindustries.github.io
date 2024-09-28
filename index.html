@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arav Industries</title>
+    <link rel="stylesheet" href="assets/css/style.csscd">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="assets/documents/Sharma_Arav_Resume.pdf" target="blank">Resume</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="video-container" id="home">
+        <video class="background-video" src="assets/video/14secvid.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="bottom-left-content">
+            <h1>Arav Sharma</h1>
+            <nav class="social-links">
+                <a href="mailto:arav.sharma@cooper.edu" target="_blank">arav.sharma@cooper.edu</a>
+                <a href="https://linkedin.com/in/arav-s" target="_blank">https://linkedin.com/in/arav-s</a>
+                <a href="assets/documents/Sharma_Arav_Resume.pdf" target="blank">view resume</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <section class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    <br>
+                    Hello! I'm an electrical engineering student with a passion for RF, signal processing, hardware design, and embedded systems. Additionally, I am interested in using machine learning and adaptive algorithms to overcome hardware challenges and improve communication systems.
+                    <br> <br>
+                    Currently, I am working in an RF embedded systems role at a small oscillator/amplifier manufacturing company. This position has provided me with numerous design opportunities and has exposed me to all stages of bringing a product to market.
+                    <br> <br>
+                    I am also available to work on a project basis for other small companies who may require my skillset.
+                </p>
+            </div>
+            <div class="about-photo">
+                <img src="assets/images/aboutphoto.jpg" alt="My Photo">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects-section" id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <div class="project-image">
+                <img src="assets/images/widebandsynth.gif" alt="Project 1 GIF">
+            </div>
+            <div class="project-details">
+                <h3>Microwave Wideband Synthesizer (900 MHz - 13 GHz)</h3>
+                <ul>
+                    <li>Utilized Analog Devices ADF4368 PLL, with an AVR microcontroller automating configuration at startup via SPI and EEPROM data.</li>
+                    <li>Designed with a Python-based GUI for easy configuration and USB interface for user control.</li>
+                    <li>Offers single frequency and frequency step operation modes, with fine-tuning available via the fractional-N synthesizer.</li>
+                    <li>Achieved ultralow phase noise of -120 dBc/Hz at 12.8 GHz with a 10 kHz offset.</li>
+                    <li>Provides a flexible, low-cost alternative to traditional DRO solutions for various RF applications, generating a clean sine wave over a wide frequency range.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="assets/images/dllgif.gif" alt="Project 2 Image">
+            </div>
+            <div class="project-details">
+                <h3>Delay Locked Loop with TSMC 65 nm PDK (1 GHz)</h3>
+                <ul>
+                    <li>Designed and implemented a delay-locked loop (DLL) using TSMC 65 nm PDK in Cadence Virtuoso.</li>
+                    <li>Developed key components (PFD, charge pump, VCDL) in Verilog-A for behavioral simulation.</li>
+                    <li>Achieved fast lock time of 20 ns and verified the design with schematic simulation in TSMC 65 nm.</li>
+                    <li>Completed clean layout with no DRC and LVS violations.</li>
+                    <li>Simulated and verified DLL operation using test cases with control voltages of 0V and 1V, ensuring phase alignment and delay control.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="assets/images/colpitts.png" alt="Project 2 Image">
+            </div>
+            <div class="project-details">
+                <h3>Single Balanced RF Mixer with Colpitts Oscillator (4 MHz)</h3>
+                <ul>
+                    <li>Colpitts oscillator produces 16V peak-to-peak output from only 5V power supply.</li>
+                    <li>NMOS differential pair loaded with RF chokes for additional gain and filtering.</li>
+                    <li>Effective filtering removes upper sideband (USB) and higher order harmonics.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="about-section" id="education">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Education</h2>
+
+                <h3>Bachelor of Engineering in Electrical Engineering</h3>
+                <ul>
+                            <li>VLSI</li>
+                            <li>Microwave Engineering</li>
+                            <li>Speech and Audio Processing</li>
+                            <li>Hardware Design</li>
+                            <li>Machine Learning</li>
+                </ul>
+            </div>
+            <div class="school-photo">
+                <img src="assets/images/Cooper_Union.webp" alt="My Photo">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="experience-section" id="experience">
+        <h2>Experience</h2>
+        
+        <div class="experience">
+            <div class="company-logo">
+                <img src="assets/images/PmT.png" alt="Company Logo">
+            </div>
+            <div class="experience-details">
+                <h3>RF Embedded Systems Intern</h3>
+                <h4>Princeton Microwave Technology</h4>
+                <p>Princeton, NJ</p>
+                <a href="https://www.princetonmicrowave.com" target="_blank">princetonmicrowave.com</a>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="company-logo">
+                <img src="assets/images/Ecolibrium-Logo.png" alt="Company Logo">
+            </div>
+            <div class="experience-details">
+                <h3>IoT Engineering Intern</h3>
+                <h4>ECOLIBRIUM</h4>
+                <p>New York City, NY</p>
+                <a href="https://ecolibrium.nyc/" target="_blank">ecolibrium.nyc/</a>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="company-logo">
+                <img src="assets/images/Logo_CPBF.png" alt="Company Logo">
+            </div>
+            <div class="experience-details">
+                <h3>Smart Ag Researcher</h3>
+                <h4>El Centro de Paz Barbara Ford</h4>
+                <p>Quiche, Guatemala</p>
+                <a href="https://cenpaz.org/" target="_blank">cenpaz.org</a>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="company-logo">
+                <img src="assets/images/cooper-union.jpeg" alt="Company Logo">
+            </div>
+            <div class="experience-details">
+                <h3>Digital Logic Design TA / Micro Lab Staff</h3>
+                <h4>The Cooper Union for the Advancemnt of Science and Art</h4>
+                <p>New York City, NY</p>
+                <a href="https://cooper.edu/" target="_blank">www.cooper.edu</a>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    <section class="skills-section" id="skills">
+        <h2>Skills</h2>
+    
+        <div class="skills-container">
+            <div class="skills-column">
+                <div class="skills-category">
+                    <h3>Analog Design</h3>
+                    <ul>
+                        <li>Cadence</li>
+                        <li>IC Design</li>
+                        <li>TSMC PDK</li>
+                        <li>Altium</li>
+                        <li>Printed Circuit Board (PCB)</li>
+                        <li>SPICE</li>
+                    </ul>
+                </div>
+    
+                <div class="skills-category">
+                    <h3>RF</h3>
+                    <ul>
+                        <li>Keysight ADS</li>
+                        <li>ANSYS HFSS</li>
+                        <li>ADIsimPLL</li>
+                        <li>Filter Design</li>
+                        <li>Noise Figure</li>
+                        <li>Transmission Lines</li>
+                        <li>S-Parameters</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="skills-column">
+
+                <div class="skills-category">
+                    <h3>Hardware</h3>
+                    <ul>
+                        <li>Xilinx FPGA</li>
+                        <li>AMD Vivado</li>
+                        <li>RTL Coding</li>
+                        <li>Mixed-Signal IP</li>
+                        <li>System Verilog</li>
+                        <li>Verilog-AMS</li>
+                        <li>ADC/DAC</li>
+                        <li>SerDes</li>
+                        <li>Digital Logic Design</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Lab Equipment</h3>
+                    <ul>
+                        <li>Network Analyzer</li>
+                        <li>Spectrum Analyzer</li>
+                        <li>Oscilloscope</li>
+                        <li>Signal Generator</li>
+                    </ul>
+                </div>
+  
+            </div>
+    
+            <div class="skills-column">
+                <div class="skills-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>MATLAB</li>
+                        <li>Shell</li>
+                        <li>Linux</li>
+                        <li>Assembly</li>
+                        <li>Firmware</li>
+                        <li>Operating Systems</li>
+                    </ul>
+                </div>
+    
+                <div class="skills-category">
+                    <h3>Microsoft Office</h3>
+                    <ul>
+                        <li>Excel</li>
+                        <li>PowerPoint</li>
+                        <li>Word</li>
+                        <li>Project</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- 
+    <section class="certifications-section" id="contact">
+        <h2>Certifications</h2>
+
+        <div class="certifications-container">
+            <div class="certification">
+                <img src="badge1.png" alt="Certification Badge" class="badge">
+                <div class="certification-info">
+                    <h3>Qualcomm 5G Introductory-Level Certification</h3>
+                    <p>2024</p>
+                </div>
+            </div>
+
+            <div class="certification">
+                <img src="badge2.png" alt="Certification Badge" class="badge">
+                <div class="certification-info">
+                    <h3>Cadence Virtuoso 5G Handset Transciever Design</h3>
+                    <p>Short description of what this certification entails.</p>
+                </div>
+            </div>
+
+            <div class="certification">
+                <img src="badge3.png" alt="Certification Badge" class="badge">
+                <div class="certification-info">
+                    <h3>FCC Amateur Radio Technician License</h3>
+                    <p>Short description of what this certification entails.</p>
+                </div>
+            </div>
+
+            <div class="certification">
+                <img src="badge4.png" alt="Certification Badge" class="badge">
+                <div class="certification-info">
+                    <h3>Cosimulation in Ansys HFSS</h3>
+                    <p>Short description of what this certification entails.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="contact-section" id="contact">
+        <h2>Contact</h2>
+        <div style="display: flex; justify-content: center; gap: 40px; align-items: center;">
+            <!-- Email -->
+            <a href="mailto:youremail@example.com" class="social-link" target="blank">
+                <img src="assets/images/mail.jpg" alt="Email Icon" class="social-icon">
+                arav.sharma@cooper.edu
+            </a>
+    
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/arav-s" class="social-link" target="blank">
+                <img src="assets/images/LinkedIn_logo_initials.webp" alt="LinkedIn Icon" class="social-icon">
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
